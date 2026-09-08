@@ -95,7 +95,7 @@ const About = () => {
             <div className="mt-10 p-6 bg-surface-elevated border border-subtle ring-1 ring-primary/5 rounded-2xl shadow-sm flex flex-col sm:flex-row gap-8">
               <div className="flex-1">
                 <h4 className="font-poppins font-bold text-heading mb-2">Languages</h4>
-                <p className="text-body text-sm leading-relaxed">Arabic (Native), English (Fluent), Turkish & Russian (Conversational)</p>
+                <p className="text-body text-sm leading-relaxed">Arabic (Native), English (Fluent), Turkish (Proficient), Russian & German (Beginner)</p>
               </div>
               <div className="w-px bg-border hidden sm:block"></div>
               <div className="flex-1">

@@ -36,8 +36,8 @@ export type Role = {
 export const roles: Role[] = [
   {
     company: 'LM Smart Solutions',
-    project: 'LM-MS — Unified Power Monitoring System',
-    title: 'Co-Founder & Lead Software Engineer',
+    project: 'LM-MS Monitoring System',
+    title: 'Co-Founder & Full-Stack Engineer',
     duration: 'Nov 2025 – Present',
     summary:
       'Architecting and shipping LM-MS, a monitoring platform for distributed power sites — solar, rectifier, inverter, and generator plants. Covers the telemetry acquisition service, the normalized data model behind it, the operator dashboards and single-site console, catalog-driven reporting, and multi-channel alarm delivery.',
@@ -53,8 +53,8 @@ export const roles: Role[] = [
     duration: '2 – 27 August 2026',
     badge: 'Internship',
     summary:
-      "Summer placement in the data analytics branch at one of Egypt's largest banks — focusing on data governance practices for enterprise systems.",
-    tech: ['Data Governance', 'Data Analytics', 'Compliance'],
+      "Summer placement in the data analytics division at one of Egypt's largest banks. Profiled a 50,000-record synthetic banking dataset in Python, SQL, and Excel — building data quality scorecards and auditing cross-field validation rules across completeness, consistency, and conformity. Modeled a money-transfer graph in Neo4j to trace lineage across systems, writing Cypher queries and handling CSV ingestion with ISO-8601 normalization and batched imports. Awarded Best Squad of the Program after a board-style executive presentation and technical Q&A before senior banking leadership.",
+    tech: ['Python', 'SQL', 'Neo4j / Cypher', 'Data Profiling', 'MDM', 'Data Lifecycle Management', 'Excel'],
   },
   {
     company: 'Media Gate Company',
@@ -62,8 +62,8 @@ export const roles: Role[] = [
     title: 'Full-Stack Engineer (Freelance)',
     duration: 'Aug 2025 – Oct 2025',
     summary:
-      'Built a job portal from scratch as a freelance engagement: React frontend, backend server architecture, and the payment and admin workflows behind bagijob.com.',
-    tech: ['React.js', 'Redux', 'REST API', 'PostgreSQL', 'Tailwind CSS'],
+      "Took over an unfinished job portal and shipped it: completed the work a previous developer left incomplete, then built the payment and admin layers behind bagijob.com — Stripe subscription processing, automated revenue calculation, real-time approval notifications, and Bunny CDN video delivery. Also produced a revised technical plan for the platform's next phase.",
+    tech: ['React.js', 'Stripe', 'Bunny CDN', 'REST API', 'Tailwind CSS'],
   },
 ];
 

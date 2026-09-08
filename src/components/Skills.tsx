@@ -70,7 +70,7 @@ const Skills = () => {
             </div>
 
             <div className="flex flex-wrap gap-2 relative z-10 mt-auto">
-              {['React / Next.js', 'C# / ASP.NET', 'Node.js', 'REST APIs', 'IoT Integration', 'Tailwind CSS'].map(skill => (
+              {['React / Next.js', 'TypeScript', 'C# / ASP.NET', 'Node.js', 'REST APIs', 'IoT Integration', 'Tailwind CSS'].map(skill => (
                 <span key={skill} className="text-xs sm:text-sm font-semibold px-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-purple-200">
                   {skill}
                 </span>
@@ -99,7 +99,7 @@ const Skills = () => {
             </div>
 
             <div className="flex flex-wrap gap-2 relative z-10">
-              {['SQL Server', 'PostgreSQL', 'MongoDB', 'Python / Flask', 'MySQL'].map(skill => (
+              {['SQL Server', 'PostgreSQL', 'MongoDB', 'MySQL', 'FastAPI', 'Supabase', 'Neo4j'].map(skill => (
                 <span key={skill} className="text-[11px] sm:text-xs font-bold px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm text-white border border-white/20">
                   {skill}
                 </span>

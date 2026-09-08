@@ -8,7 +8,7 @@
  * ─── HONESTY CONTRACT FOR THIS FILE ───────────────────────────────────────────
  * `tagline`, `sections`, and `highlights` are restatements or reorganisations of
  * the `description` for that same project, or of a technical write-up supplied
- * by the author for that project (zagel, riselist, inqaz, petpulse, and
+ * by the author for that project (zagel, riselist, inqaz, petpluse, and
  * crash-detection). Nothing here introduces a fact from outside one of those two
  * sources — no invented metrics, dates, team sizes, feature lists, or outcomes.
  *
@@ -299,18 +299,18 @@ export const projects: Project[] = [
   },
 
   {
-    slug: 'petpulse',
-    title: "PetPulse",
-    description: "A unified digital ecosystem designed to simplify every stage of pet ownership. Built as a comprehensive platform for pet care, health tracking, and management.",
+    slug: 'petpluse',
+    title: "PetPluse",
+    description: "A multi-sided pet-care marketplace for the Egyptian market spanning six service verticals — vet consultations, training, adoption, mating matches, subscription boxes, and pet hosting. Includes Leaflet-based location search, an AI chatbot, and a fully Arabic-localized admin dashboard, alongside business modeling with MRR projections and a pitch deck.",
     tagline: "A location-aware marketplace for finding nearby, verified veterinarians and trainers.",
     // A screenshot of the running product makes a better card than a logo.
     image: "/petpulse-01-hero.webp",
-    tech: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Leaflet"],
+    tech: ["React.js", "Node.js", "Supabase", "Serverless Node.js", "Leaflet"],
     languages: ["TypeScript"],
     github: "https://github.com/laila2005/Mewoo",
     sourceStatus: 'public',
-    // The previous deployment (petpulse-pi) now 404s; this is the live one.
-    live: "https://petpulse-showcase.vercel.app/",
+    // The previous deployment (petpluse-pi) now 404s; this is the live one.
+    live: "https://www.petpluse.com/",
     highlights: [
       "Unified digital ecosystem covering every stage of pet ownership",
       "Booking, adoption, hosting, training, and community in one marketplace",
@@ -319,33 +319,33 @@ export const projects: Project[] = [
     gallery: [
       {
         src: "/petpulse-01-hero.webp",
-        alt: "PetPulse landing page: the header nav, the headline “Your Pet Care Companion in One Place”, and a photograph of an owner with a golden retriever.",
+        alt: "PetPluse landing page: the header nav, the headline “Your Pet Care Companion in One Place”, and a photograph of an owner with a golden retriever.",
         caption: "The marketplace entry point — one place for services, adoption, and community.",
       },
       {
         src: "/petpulse-02-services.webp",
-        alt: "PetPulse services grid with five cards: Vet Booking, Trainers, Adoption, Pet Hosting, and Community Support, each with its own call to action.",
+        alt: "PetPluse services grid with five cards: Vet Booking, Trainers, Adoption, Pet Hosting, and Community Support, each with its own call to action.",
         caption: "Five distinct service flows, each with its own booking and vendor model behind it.",
       },
       {
         src: "/petpulse-03-adoption.webp",
-        alt: "PetPulse adoption section showing pet cards for Milo and Luna with age and temperament, beside an online veterinary surgeon panel offering a quick chat.",
+        alt: "PetPluse adoption section showing pet cards for Milo and Luna with age and temperament, beside an online veterinary surgeon panel offering a quick chat.",
         caption: "Adoption listings alongside direct access to a verified vet — the two sides of the marketplace.",
       },
       {
         src: "/petpulse-04-features.webp",
-        alt: "PetPulse trust section: cards for Verified Pros, Easy Booking, Safe Adoption, and Active Community, next to a checklist covering direct communication, insured bookings, and digital health records.",
+        alt: "PetPluse trust section: cards for Verified Pros, Easy Booking, Safe Adoption, and Active Community, next to a checklist covering direct communication, insured bookings, and digital health records.",
         caption: "Vendor verification and insured bookings are the trust layer the relational schema enforces.",
       },
     ],
     sections: [
       {
         heading: "The challenge",
-        body: "PetPulse exists because pet care services are fragmented, which makes it difficult for owners to find nearby, verified veterinarians and trainers. What that actually requires is a robust, location-aware marketplace capable of handling complex booking workflows and vendor management.",
+        body: "PetPluse exists because pet care services are fragmented, which makes it difficult for owners to find nearby, verified veterinarians and trainers. What that actually requires is a robust, location-aware marketplace capable of handling complex booking workflows and vendor management.",
       },
       {
         heading: "Backend, data integrity, and the frontend",
-        body: "PetPulse is a comprehensive full-stack ecosystem built on a Node.js/Express backend with a PostgreSQL relational database. The relational choice is deliberate: bookings, user roles, and vendor profiles all need strict data integrity, and that is what a constrained relational schema gives you. The frontend is a highly responsive React.js single-page application.",
+        body: "PetPluse is a comprehensive full-stack ecosystem built on Serverless Node.js and Supabase. The choice of Supabase is deliberate: bookings, user roles, and vendor profiles all need strict data integrity, and that is what a constrained relational schema gives you. The frontend is a highly responsive React.js single-page application.",
       },
       {
         heading: "The geo-centered architecture",

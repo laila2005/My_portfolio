@@ -151,17 +151,7 @@ const Contact = () => {
                 </motion.div>
               ))}
             </div>
-            <div className="p-6 rounded-2xl bg-primary/5 shadow-lg border border-primary/10">
-              <h4 className="font-poppins font-semibold text-lg mb-3 text-heading">
-                Why Work With Me?
-              </h4>
-              <ul className="space-y-2 text-heading font-inter text-base opacity-80">
-                <li>• Strong foundation in both systems and web development</li>
-                <li>• Collaborative team player with leadership experience</li>
-                <li>• Passionate about creating efficient, scalable solutions</li>
-                <li>• Quick learner with excellent problem-solving skills</li>
-              </ul>
-            </div>
+
           </div>
           {/* Contact Form */}
           <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
